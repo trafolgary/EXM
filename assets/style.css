@@ -29,7 +29,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	outline: none !important
+	outline: none !important;
+    font-family: Lato;
 }
 
 html,
@@ -54,6 +55,54 @@ header {
     left: 0px;
     z-index: 100;
     background-color: #ECEDED;
+}
+
+.reg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reg h2 {
+    font-size: 50px;
+    margin: 0px auto;
+    margin: 50px;
+    text-align: center;
+}
+
+.reg a {
+    text-align: center;
+}
+
+.reg form {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0px auto;
+    padding: 20px;
+    background: white;
+    margin-bottom: 200px;
+}
+
+.reg form input {
+    width: 860px;
+    padding: 10px;
+}
+
+.reg form button {
+    margin: 0px auto;
+    margin-top: 20px;
+    background: #0B6FAE;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: white;
+    transition: 0.5s;
+    border: none;
+}
+
+.reg form button:hover {
+    background: #009EC5;
 }
 
 header .header-container { 

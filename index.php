@@ -38,7 +38,7 @@
                         <a href="">
                             <img src="assets/img/vk.svg" alt="">
                         </a>
-                        <div class="header-contacts-btn js-popup-btn">Связаться с нами</div>
+                        <a href="login.php" class="header-contacts-btn js-popup-btn">Войти</a>
                     </div>
                 </div>
             </div>
@@ -155,6 +155,7 @@
         <div class="container">
             <div class="company-footer">© ООО «ЭНТИКОМ-ИНВЕСТ», 2023</div>
         </div>
+    </footer>    
 </body>
 
 </html>
